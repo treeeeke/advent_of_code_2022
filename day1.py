@@ -37,7 +37,7 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
 
-    with open("day1_input.txt", 'r') as file:
+    with open("data/day1_input.txt", 'r') as file:
         print("Puzzle 1 answer:", solution.get_max_food(file))
         file.seek(0)
         print("Puzzle 2 answer:", solution.get_max_food_by_top_n_elfes(file, 3))
